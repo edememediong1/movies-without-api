@@ -24,8 +24,9 @@ function Moviedata(){
                 {jsonData.map(item => (
                     <div key={item.year} className="item-container">
                         <img src={item.thumbnail} className="item-image"/>
-                        <p className="item-title">{item.title}</p>
-                        <p className="item-year">{item.year}</p>
+                        <p className="text">{item.title}</p>
+                        <p className="text">{item.year}</p>
+                        <img src='button.svg' className="btn-image"/>
                     </div>
                 ))}
   

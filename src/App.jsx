@@ -1,4 +1,4 @@
-import Moviedata from "./data"
+import Moviedata from "./components/data"
 
 function App() {
 
